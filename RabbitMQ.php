@@ -42,9 +42,9 @@
         /**
          * Create a new job instance.
          *
-         * @return void
+         * @param null $message
          */
-        public function __construct($message)
+        public function __construct($message=null)
         {
             $this->message = json_encode($message);
             $this->rabbitHost = env('RABBITMQ_HOST');
