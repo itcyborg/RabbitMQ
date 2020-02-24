@@ -1,0 +1,15 @@
+{
+    "name": "finaplus/rabbitmq",
+    "description": "Library to manage RabbitMQ queues",
+    "type": "library",
+    "require": {
+        "php-amqplib/php-amqplib": "^2.11"
+    },
+    "authors": [
+        {
+            "name": "isaac",
+            "email": "isaac@imanilabs.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}
