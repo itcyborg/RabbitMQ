@@ -11,5 +11,5 @@
             "email": "isaac@imanilabs.com"
         }
     ],
-    "minimum-stability": "beta"
+    "minimum-stability": "dev"
 }
