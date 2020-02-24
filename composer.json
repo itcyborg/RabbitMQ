@@ -5,11 +5,17 @@
     "require": {
         "php-amqplib/php-amqplib": "^2.11"
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "isaac",
             "email": "isaac@imanilabs.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4":{
+            "Finaplus\\": "src"
+        }
+    }
 }
